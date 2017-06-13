@@ -266,7 +266,7 @@ ul {
       padding: 10px 10px 7px;
 
       &.active {
-        border-bottom: #52697f solid 3px;
+        border-bottom: #f23030 solid 3px;
         color: #52697f;
       }
     }

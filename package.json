@@ -26,7 +26,7 @@
     "component"
   ],
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --config=./build/webpack.dev.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --host 192.168.1.173 --config=./build/webpack.dev.config.js",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=./build/webpack.prod.config.js"
   },
   "dependencies": {
