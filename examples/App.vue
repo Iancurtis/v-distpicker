@@ -1,11 +1,12 @@
 <template>
-  <div class="container">
-    <logo></logo>
-    <get-start></get-start>
-    <usage></usage>
-    <attributes></attributes>
-    <methods></methods>
-    <footbar></footbar>
+  <div class="container-fluid">
+    <!--<logo></logo>-->
+    <!--<get-start></get-start>-->
+    <!--<usage></usage>-->
+    <!--<attributes></attributes>-->
+    <!--<methods></methods>-->
+    <!--<footbar></footbar>-->
+    <pure-usage></pure-usage>
   </div>
 </template>
 
@@ -16,7 +17,9 @@ import Usage from './components/Usage'
 import Attributes from './components/Attributes'
 import Methods from './components/Methods'
 import Footbar from './components/Footer'
-import './css/styles.css'
+import PureUsage from './components/PureUsage'
+import './css/styles.jd.css'
+
 
 export default {
   components: {
@@ -26,6 +29,7 @@ export default {
     Attributes,
     Methods,
     Footbar,
+    PureUsage,
   },
 }
 </script>

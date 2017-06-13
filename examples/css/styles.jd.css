@@ -1,0 +1,16 @@
+body {
+  background-color: #999;
+}
+.address {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 501;
+  max-height: 100%;
+  overflow-y: scroll;
+}
+.address-container {
+  height: 300px;
+  /*overflow-y: auto;*/
+}
